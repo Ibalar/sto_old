@@ -3,9 +3,9 @@
 $phone = $_POST['phone'];
 $name = $_POST['name'];
 
-$token = "6018327692:AAFih0ape_Pp1Q8Eh5dAkZeLLxJQtOSd9fw";
+$token = "#";
 
-$chat_id = "-840883210";
+$chat_id = "#";
 
 $arr = array(
 
