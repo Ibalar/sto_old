@@ -1,0 +1,79 @@
+/.osp
+
+# MODX Revolution
+/assets/components/
+/assets/export/
+/core/cache/
+/core/config/config.inc.php
+/core/export/
+/core/packages/
+/core/xpdo/
+/manager/processors/cache_sync.class.php
+
+# Конфигурационные файлы с чувствительными данными
+/core/config/*.config.php
+/core/config/*.inc.php
+!core/config/config.inc.php.sample
+
+# Кэш
+/_cache/
+/_build/
+
+# Логи (если они в корне)
+/*.log
+/logs/
+/error.log
+/access.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.bak
+*.tmp
+
+# IDE файлы
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Временные файлы MODX
+/connectors/tmp/
+
+# Бэкапы и дампы
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.sql
+*.backup
+*.dump
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Папка установки (если она не удалена)
+/setup/
+
+# Дополнительно для разработки (опционально)
+/composer.phar
+/vendor/
+/node_modules/
+/yarn.lock
+/package-lock.json
+/bower_components/
+
+# Файлы операционных систем
+ehthumbs.db
+Desktop.ini
+
+# Файлы тестов
+*.test
+*.spec
+
+# Локальные настройки
+*.local.php
